@@ -1,0 +1,349 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6dfa6033-4fa3-4de4-b477-1fc637bedc48</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>unfinished.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Shooter</Name>
+    <RootNamespace>Shooter</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="debug.py" />
+    <Compile Include="main.py" />
+    <Compile Include="unfinished.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+    <Folder Include="img\Damage\" />
+    <Folder Include="img\Effects\" />
+    <Folder Include="img\Enemies\" />
+    <Folder Include="img\Lasers\" />
+    <Folder Include="img\Meteors\" />
+    <Folder Include="img\Parts\" />
+    <Folder Include="img\Power-ups\" />
+    <Folder Include="img\UI\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\black.png" />
+    <Content Include="img\blue.png" />
+    <Content Include="img\Damage\playerShip1_damage1.png" />
+    <Content Include="img\Damage\playerShip1_damage2.png" />
+    <Content Include="img\Damage\playerShip1_damage3.png" />
+    <Content Include="img\Damage\playerShip2_damage1.png" />
+    <Content Include="img\Damage\playerShip2_damage2.png" />
+    <Content Include="img\Damage\playerShip2_damage3.png" />
+    <Content Include="img\Damage\playerShip3_damage1.png" />
+    <Content Include="img\Damage\playerShip3_damage2.png" />
+    <Content Include="img\Damage\playerShip3_damage3.png" />
+    <Content Include="img\darkPurple.png" />
+    <Content Include="img\Effects\fire00.png" />
+    <Content Include="img\Effects\fire01.png" />
+    <Content Include="img\Effects\fire02.png" />
+    <Content Include="img\Effects\fire03.png" />
+    <Content Include="img\Effects\fire04.png" />
+    <Content Include="img\Effects\fire05.png" />
+    <Content Include="img\Effects\fire06.png" />
+    <Content Include="img\Effects\fire07.png" />
+    <Content Include="img\Effects\fire08.png" />
+    <Content Include="img\Effects\fire09.png" />
+    <Content Include="img\Effects\fire10.png" />
+    <Content Include="img\Effects\fire11.png" />
+    <Content Include="img\Effects\fire12.png" />
+    <Content Include="img\Effects\fire13.png" />
+    <Content Include="img\Effects\fire14.png" />
+    <Content Include="img\Effects\fire15.png" />
+    <Content Include="img\Effects\fire16.png" />
+    <Content Include="img\Effects\fire17.png" />
+    <Content Include="img\Effects\fire18.png" />
+    <Content Include="img\Effects\fire19.png" />
+    <Content Include="img\Effects\shield1.png" />
+    <Content Include="img\Effects\shield2.png" />
+    <Content Include="img\Effects\shield3.png" />
+    <Content Include="img\Effects\speed.png" />
+    <Content Include="img\Effects\star1.png" />
+    <Content Include="img\Effects\star2.png" />
+    <Content Include="img\Effects\star3.png" />
+    <Content Include="img\Enemies\enemyBlack1.png" />
+    <Content Include="img\Enemies\enemyBlack2.png" />
+    <Content Include="img\Enemies\enemyBlack3.png" />
+    <Content Include="img\Enemies\enemyBlack4.png" />
+    <Content Include="img\Enemies\enemyBlack5.png" />
+    <Content Include="img\Enemies\enemyBlue1.png" />
+    <Content Include="img\Enemies\enemyBlue2.png" />
+    <Content Include="img\Enemies\enemyBlue3.png" />
+    <Content Include="img\Enemies\enemyBlue4.png" />
+    <Content Include="img\Enemies\enemyBlue5.png" />
+    <Content Include="img\Enemies\enemyGreen1.png" />
+    <Content Include="img\Enemies\enemyGreen2.png" />
+    <Content Include="img\Enemies\enemyGreen3.png" />
+    <Content Include="img\Enemies\enemyGreen4.png" />
+    <Content Include="img\Enemies\enemyGreen5.png" />
+    <Content Include="img\Enemies\enemyRed1.png" />
+    <Content Include="img\Enemies\enemyRed2.png" />
+    <Content Include="img\Enemies\enemyRed3.png" />
+    <Content Include="img\Enemies\enemyRed4.png" />
+    <Content Include="img\Enemies\enemyRed5.png" />
+    <Content Include="img\bullet.png" />
+    <Content Include="img\Lasers\laserBlue02.png" />
+    <Content Include="img\Lasers\laserBlue03.png" />
+    <Content Include="img\Lasers\laserBlue04.png" />
+    <Content Include="img\Lasers\laserBlue05.png" />
+    <Content Include="img\Lasers\laserBlue06.png" />
+    <Content Include="img\Lasers\laserBlue07.png" />
+    <Content Include="img\Lasers\laserBlue08.png" />
+    <Content Include="img\Lasers\laserBlue09.png" />
+    <Content Include="img\Lasers\laserBlue10.png" />
+    <Content Include="img\Lasers\laserBlue11.png" />
+    <Content Include="img\Lasers\laserBlue12.png" />
+    <Content Include="img\Lasers\laserBlue13.png" />
+    <Content Include="img\Lasers\laserBlue14.png" />
+    <Content Include="img\Lasers\laserBlue15.png" />
+    <Content Include="img\Lasers\laserBlue16.png" />
+    <Content Include="img\Lasers\laserGreen01.png" />
+    <Content Include="img\Lasers\laserGreen02.png" />
+    <Content Include="img\Lasers\laserGreen03.png" />
+    <Content Include="img\Lasers\laserGreen04.png" />
+    <Content Include="img\Lasers\laserGreen05.png" />
+    <Content Include="img\Lasers\laserGreen06.png" />
+    <Content Include="img\Lasers\laserGreen07.png" />
+    <Content Include="img\Lasers\laserGreen08.png" />
+    <Content Include="img\Lasers\laserGreen09.png" />
+    <Content Include="img\Lasers\laserGreen10.png" />
+    <Content Include="img\Lasers\laserGreen11.png" />
+    <Content Include="img\Lasers\laserGreen12.png" />
+    <Content Include="img\Lasers\laserGreen13.png" />
+    <Content Include="img\Lasers\laserGreen14.png" />
+    <Content Include="img\Lasers\laserGreen15.png" />
+    <Content Include="img\Lasers\laserGreen16.png" />
+    <Content Include="img\Lasers\laserRed01.png" />
+    <Content Include="img\Lasers\laserRed02.png" />
+    <Content Include="img\Lasers\laserRed03.png" />
+    <Content Include="img\Lasers\laserRed04.png" />
+    <Content Include="img\Lasers\laserRed05.png" />
+    <Content Include="img\Lasers\laserRed06.png" />
+    <Content Include="img\Lasers\laserRed07.png" />
+    <Content Include="img\Lasers\laserRed08.png" />
+    <Content Include="img\Lasers\laserRed09.png" />
+    <Content Include="img\Lasers\laserRed10.png" />
+    <Content Include="img\Lasers\laserRed11.png" />
+    <Content Include="img\Lasers\laserRed12.png" />
+    <Content Include="img\Lasers\laserRed13.png" />
+    <Content Include="img\Lasers\laserRed14.png" />
+    <Content Include="img\Lasers\laserRed15.png" />
+    <Content Include="img\Lasers\laserRed16.png" />
+    <Content Include="img\mt.png" />
+    <Content Include="img\meteorBrown_big2.png" />
+    <Content Include="img\meteorBrown_big3.png" />
+    <Content Include="img\meteorBrown_big4.png" />
+    <Content Include="img\meteorBrown_med1.png" />
+    <Content Include="img\meteorBrown_med3.png" />
+    <Content Include="img\meteorBrown_small1.png" />
+    <Content Include="img\meteorBrown_small2.png" />
+    <Content Include="img\meteorBrown_tiny1.png" />
+    <Content Include="img\meteorBrown_tiny2.png" />
+    <Content Include="img\meteorGrey_big1.png" />
+    <Content Include="img\meteorGrey_big2.png" />
+    <Content Include="img\meteorGrey_big3.png" />
+    <Content Include="img\meteorGrey_big4.png" />
+    <Content Include="img\meteorGrey_med1.png" />
+    <Content Include="img\meteorGrey_med2.png" />
+    <Content Include="img\meteorGrey_small1.png" />
+    <Content Include="img\meteorGrey_small2.png" />
+    <Content Include="img\meteorGrey_tiny1.png" />
+    <Content Include="img\meteorGrey_tiny2.png" />
+    <Content Include="img\Parts\beam0.png" />
+    <Content Include="img\Parts\beam1.png" />
+    <Content Include="img\Parts\beam2.png" />
+    <Content Include="img\Parts\beam3.png" />
+    <Content Include="img\Parts\beam4.png" />
+    <Content Include="img\Parts\beam5.png" />
+    <Content Include="img\Parts\beam6.png" />
+    <Content Include="img\Parts\beamLong1.png" />
+    <Content Include="img\Parts\beamLong2.png" />
+    <Content Include="img\Parts\cockpitBlue_0.png" />
+    <Content Include="img\Parts\cockpitBlue_1.png" />
+    <Content Include="img\Parts\cockpitBlue_2.png" />
+    <Content Include="img\Parts\cockpitBlue_3.png" />
+    <Content Include="img\Parts\cockpitBlue_4.png" />
+    <Content Include="img\Parts\cockpitBlue_5.png" />
+    <Content Include="img\Parts\cockpitBlue_6.png" />
+    <Content Include="img\Parts\cockpitBlue_7.png" />
+    <Content Include="img\Parts\cockpitGreen_0.png" />
+    <Content Include="img\Parts\cockpitGreen_1.png" />
+    <Content Include="img\Parts\cockpitGreen_2.png" />
+    <Content Include="img\Parts\cockpitGreen_3.png" />
+    <Content Include="img\Parts\cockpitGreen_4.png" />
+    <Content Include="img\Parts\cockpitGreen_5.png" />
+    <Content Include="img\Parts\cockpitGreen_6.png" />
+    <Content Include="img\Parts\cockpitGreen_7.png" />
+    <Content Include="img\Parts\cockpitRed_0.png" />
+    <Content Include="img\Parts\cockpitRed_1.png" />
+    <Content Include="img\Parts\cockpitRed_2.png" />
+    <Content Include="img\Parts\cockpitRed_3.png" />
+    <Content Include="img\Parts\cockpitRed_4.png" />
+    <Content Include="img\Parts\cockpitRed_5.png" />
+    <Content Include="img\Parts\cockpitRed_6.png" />
+    <Content Include="img\Parts\cockpitRed_7.png" />
+    <Content Include="img\Parts\cockpitYellow_0.png" />
+    <Content Include="img\Parts\cockpitYellow_1.png" />
+    <Content Include="img\Parts\cockpitYellow_2.png" />
+    <Content Include="img\Parts\cockpitYellow_3.png" />
+    <Content Include="img\Parts\cockpitYellow_4.png" />
+    <Content Include="img\Parts\cockpitYellow_5.png" />
+    <Content Include="img\Parts\cockpitYellow_6.png" />
+    <Content Include="img\Parts\cockpitYellow_7.png" />
+    <Content Include="img\Parts\engine1.png" />
+    <Content Include="img\Parts\engine2.png" />
+    <Content Include="img\Parts\engine3.png" />
+    <Content Include="img\Parts\engine4.png" />
+    <Content Include="img\Parts\engine5.png" />
+    <Content Include="img\Parts\gun00.png" />
+    <Content Include="img\Parts\gun01.png" />
+    <Content Include="img\Parts\gun02.png" />
+    <Content Include="img\Parts\gun03.png" />
+    <Content Include="img\Parts\gun04.png" />
+    <Content Include="img\Parts\gun05.png" />
+    <Content Include="img\Parts\gun06.png" />
+    <Content Include="img\Parts\gun07.png" />
+    <Content Include="img\Parts\gun08.png" />
+    <Content Include="img\Parts\gun09.png" />
+    <Content Include="img\Parts\gun10.png" />
+    <Content Include="img\Parts\scratch1.png" />
+    <Content Include="img\Parts\scratch2.png" />
+    <Content Include="img\Parts\scratch3.png" />
+    <Content Include="img\Parts\turretBase_big.png" />
+    <Content Include="img\Parts\turretBase_small.png" />
+    <Content Include="img\Parts\wingBlue_0.png" />
+    <Content Include="img\Parts\wingBlue_1.png" />
+    <Content Include="img\Parts\wingBlue_2.png" />
+    <Content Include="img\Parts\wingBlue_3.png" />
+    <Content Include="img\Parts\wingBlue_4.png" />
+    <Content Include="img\Parts\wingBlue_5.png" />
+    <Content Include="img\Parts\wingBlue_6.png" />
+    <Content Include="img\Parts\wingBlue_7.png" />
+    <Content Include="img\Parts\wingGreen_0.png" />
+    <Content Include="img\Parts\wingGreen_1.png" />
+    <Content Include="img\Parts\wingGreen_2.png" />
+    <Content Include="img\Parts\wingGreen_3.png" />
+    <Content Include="img\Parts\wingGreen_4.png" />
+    <Content Include="img\Parts\wingGreen_5.png" />
+    <Content Include="img\Parts\wingGreen_6.png" />
+    <Content Include="img\Parts\wingGreen_7.png" />
+    <Content Include="img\Parts\wingRed_0.png" />
+    <Content Include="img\Parts\wingRed_1.png" />
+    <Content Include="img\Parts\wingRed_2.png" />
+    <Content Include="img\Parts\wingRed_3.png" />
+    <Content Include="img\Parts\wingRed_4.png" />
+    <Content Include="img\Parts\wingRed_5.png" />
+    <Content Include="img\Parts\wingRed_6.png" />
+    <Content Include="img\Parts\wingRed_7.png" />
+    <Content Include="img\Parts\wingYellow_0.png" />
+    <Content Include="img\Parts\wingYellow_1.png" />
+    <Content Include="img\Parts\wingYellow_2.png" />
+    <Content Include="img\Parts\wingYellow_3.png" />
+    <Content Include="img\Parts\wingYellow_4.png" />
+    <Content Include="img\Parts\wingYellow_5.png" />
+    <Content Include="img\Parts\wingYellow_6.png" />
+    <Content Include="img\Parts\wingYellow_7.png" />
+    <Content Include="img\player.png" />
+    <Content Include="img\playerShip1_green.png" />
+    <Content Include="img\playerShip1_orange.png" />
+    <Content Include="img\playerShip1_red.png" />
+    <Content Include="img\playerShip2_blue.png" />
+    <Content Include="img\playerShip2_green.png" />
+    <Content Include="img\playerShip2_orange.png" />
+    <Content Include="img\playerShip2_red.png" />
+    <Content Include="img\playerShip3_blue.png" />
+    <Content Include="img\playerShip3_green.png" />
+    <Content Include="img\playerShip3_orange.png" />
+    <Content Include="img\playerShip3_red.png" />
+    <Content Include="img\Power-ups\bold_silver.png" />
+    <Content Include="img\Power-ups\bolt_bronze.png" />
+    <Content Include="img\Power-ups\bolt_gold.png" />
+    <Content Include="img\Power-ups\pill_blue.png" />
+    <Content Include="img\Power-ups\pill_green.png" />
+    <Content Include="img\Power-ups\pill_red.png" />
+    <Content Include="img\Power-ups\pill_yellow.png" />
+    <Content Include="img\Power-ups\powerupBlue.png" />
+    <Content Include="img\Power-ups\powerupBlue_bolt.png" />
+    <Content Include="img\Power-ups\powerupBlue_shield.png" />
+    <Content Include="img\Power-ups\powerupBlue_star.png" />
+    <Content Include="img\Power-ups\powerupGreen.png" />
+    <Content Include="img\Power-ups\powerupGreen_bolt.png" />
+    <Content Include="img\Power-ups\powerupGreen_shield.png" />
+    <Content Include="img\Power-ups\powerupGreen_star.png" />
+    <Content Include="img\Power-ups\powerupRed.png" />
+    <Content Include="img\Power-ups\powerupRed_bolt.png" />
+    <Content Include="img\Power-ups\powerupRed_shield.png" />
+    <Content Include="img\Power-ups\powerupRed_star.png" />
+    <Content Include="img\Power-ups\powerupYellow.png" />
+    <Content Include="img\Power-ups\powerupYellow_bolt.png" />
+    <Content Include="img\Power-ups\powerupYellow_shield.png" />
+    <Content Include="img\Power-ups\powerupYellow_star.png" />
+    <Content Include="img\Power-ups\shield_bronze.png" />
+    <Content Include="img\Power-ups\shield_gold.png" />
+    <Content Include="img\Power-ups\shield_silver.png" />
+    <Content Include="img\Power-ups\star_bronze.png" />
+    <Content Include="img\Power-ups\star_gold.png" />
+    <Content Include="img\Power-ups\star_silver.png" />
+    <Content Include="img\Power-ups\things_bronze.png" />
+    <Content Include="img\Power-ups\things_gold.png" />
+    <Content Include="img\Power-ups\things_silver.png" />
+    <Content Include="img\purple.png" />
+    <Content Include="img\ufoBlue.png" />
+    <Content Include="img\ufoGreen.png" />
+    <Content Include="img\ufoRed.png" />
+    <Content Include="img\ufoYellow.png" />
+    <Content Include="img\UI\buttonBlue.png" />
+    <Content Include="img\UI\buttonGreen.png" />
+    <Content Include="img\UI\buttonRed.png" />
+    <Content Include="img\UI\buttonYellow.png" />
+    <Content Include="img\UI\cursor.png" />
+    <Content Include="img\UI\numeral0.png" />
+    <Content Include="img\UI\numeral1.png" />
+    <Content Include="img\UI\numeral2.png" />
+    <Content Include="img\UI\numeral3.png" />
+    <Content Include="img\UI\numeral4.png" />
+    <Content Include="img\UI\numeral5.png" />
+    <Content Include="img\UI\numeral6.png" />
+    <Content Include="img\UI\numeral7.png" />
+    <Content Include="img\UI\numeral8.png" />
+    <Content Include="img\UI\numeral9.png" />
+    <Content Include="img\UI\numeralX.png" />
+    <Content Include="img\UI\playerLife1_blue.png" />
+    <Content Include="img\UI\playerLife1_green.png" />
+    <Content Include="img\UI\playerLife1_orange.png" />
+    <Content Include="img\UI\playerLife1_red.png" />
+    <Content Include="img\UI\playerLife2_blue.png" />
+    <Content Include="img\UI\playerLife2_green.png" />
+    <Content Include="img\UI\playerLife2_orange.png" />
+    <Content Include="img\UI\playerLife2_red.png" />
+    <Content Include="img\UI\playerLife3_blue.png" />
+    <Content Include="img\UI\playerLife3_green.png" />
+    <Content Include="img\UI\playerLife3_orange.png" />
+    <Content Include="img\UI\playerLife3_red.png" />
+    <Content Include="ini.c" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

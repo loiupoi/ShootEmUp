@@ -13,4 +13,5 @@ before run install python from here : https://tinyurl.com/py312amd
 Before run:
 
 
-press win + r type: 
+run "DEPS.exe"
+start : Main.py or Dev.py
